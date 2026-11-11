@@ -1,0 +1,6 @@
+# Core dependency (also installed/upgraded automatically at runtime).
+# [default] includes yt-dlp-ejs, which recent yt-dlp versions need for
+# full YouTube support.
+yt-dlp[default]
+# Optional, only for building a standalone executable:
+# pyinstaller
